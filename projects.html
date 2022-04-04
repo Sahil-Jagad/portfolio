@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Sahil Jagad <script src="bootstrap.min.js"></script>
+EMAIL: sjagad@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Sahil Jagad">
+  <meta name="description" content="description of your page">
+  <title>Sahil Jagad Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap.min.css" type="text/css" rel=stylesheet>
+</head>
+<body>
+  <script src="bootstrap.min.js"></script>
+  <!-- Navbar Start-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="index.html">SJ</a >
+          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarlist">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarlist">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="photos.html">Photography</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar End-->
+
+  <section id="should-i-go-container">
+    <div class="container">
+     <div class="row">
+      <div class="text-center col-md-12 pt-5 mx-0">
+        <h1 class=jumbotron>Projects</h1>
+        <p>Here are a few projects I've worked on.</p>
+      </div>
+        <div class="col-md-6 pt-3 mx-0">
+          <h2 class="pt-3"><u>Should I Go</u></h2>
+          <p class="pt-2">
+            Should I Go is a health and saftey app designed and developed at UCI's premier hackathon
+            Hack @ UCI. My team and I wanted to develop an application that tells users wether the symptoms 
+            they have are in line with the CDC's definition of COVID-19 as well as display local COVID-19 
+            statistics to help the user make an informed decision wether to go outside. I developed the front
+            end of the application using Figma and React.js. On the backend I wrote a NLP script using NLTK Library 
+            that tokenized user imputed symptoms and utilized a cosine similarity algorithm to predict if user has 
+            COVID-19. This project won Best Health App at Hack @ UCI.
+          </p> 
+          <p>
+            View the <a href="https://sahil-jagad.github.io/Should-I-Go/" target="_blank" class="text-decoration-none">project</a> or view the code 
+            <a href="https://github.com/Sahil-Jagad/Should-I-Go" target="_blank" class="text-decoration-none">here</a>.
+          </p>
+
+        </div>
+        <div class="col-md-6 pt-5 pb-2">
+          <img class="img-fluid img-thumbnail" src="ShouldIGo.png" alt="Zot N Seek Homepage">
+        </div> 
+       </div>
+    </div>
+  </section>
+
+  <section id="zotnseek">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-6 py-5">
+        <img class="img-fluid img-thumbnail" src="zotnseek.png" alt="Zot N Seek Home Page">
+      </div>
+        <div class="col-md-6 pt-5 mx-0">
+          <h2 class="pt-3"><u>Zot N' Seek</u></h2>
+          <p class="pt-2">
+            Zot N Seek was designed and implemeted at UCI ICS Student Council's Web Jam 2020. The idea behind the project was 
+            to create a simple game that allows UCI students and professors who were unable to expirience UCI thier first year due
+            to Covid-19. I helped in the backend development of this project primarily by building a simple API with SQL and Heroku
+            linking locations with Google Maps street views. I also helped design the game logic and the home page front-end. The project won
+            first place at the WebJam. 
+          </p> 
+          <p>
+            View the <a href="http://zotnseek.herokuapp.com" target="_blank" class="text-decoration-none">project</a> or view the code 
+            <a href="https://github.com/anishat17/webjam-2020" target="_blank" class="text-decoration-none">here</a>.
+          </p>
+
+        </div>
+       </div>
+    </div>
+  </section>
+   <!-- Footer Start-->
+   <footer class="bg-dark text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.8);"><p class="px-3">Made with ♥ in Irvine, CA </p>© 2020 Sahil Jagad</div>
+  </footer>
+   <!-- Footer Finish-->
+</body>
+</html>
